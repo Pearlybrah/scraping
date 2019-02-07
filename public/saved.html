@@ -36,33 +36,26 @@
                 >Home
                 <span class="sr-only">(current)</span>
               </a>
-              <li class="nav-item">
-                <a class="nav-link saved" href="/saved.html">Saved Articles</a>
-              </li>
             </li>
+
             <li class="nav-item">
-              <a href="/saved.html">Saved Articles</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn btn-danger scrape-new" id="scrape"
-                >Scrape New Articles</a
+              <a class="btn btn-danger clear" id="clear-saved"
+                >Clear Saved Articles</a
               >
-            </li>
-            <li class="nav-item">
-              <a class="btn btn-danger clear" id="clear">Clear Articles</a>
             </li>
           </ul>
         </div>
       </nav>
 
       <div class="jumbotron text-center">
-        <div class="overlay"></div>
+        <div></div>
         <div></div>
         <div>
+          <h1>Mongo Scraper</h1>
           <p>NPR Weird News</p>
         </div>
       </div>
-      <div class="container-fluid article-container"></div>
+      <div class="container-fluid saved-article-container"></div>
 
       <footer class="footer">
         <div class="container">
@@ -73,7 +66,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
-      <script src="app.js"></script>
+      <script src="saved.js"></script>
     </body>
   </html>
 </html>
