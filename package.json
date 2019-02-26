@@ -2,7 +2,7 @@
   "name": "scraping",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/Pearlybrah/scraping/issues"
   },
-  "homepage": "https://github.com/Pearlybrah/scraping/",
+  "homepage": "https://github.com/Pearlybrah/scraping#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2",
