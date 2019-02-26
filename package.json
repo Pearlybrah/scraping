@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/Pearlybrah/scraping/issues"
   },
-  "homepage": "https://github.com/Pearlybrah/scraping#readme",
+  "homepage": "https://github.com/Pearlybrah/scraping/",
   "dependencies": {
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2",
