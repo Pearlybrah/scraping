@@ -12,8 +12,11 @@ app.use(express.static("public"));
 const routes = require("./routes");
 app.use(routes);
 
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/scraper";
-mongoose.connect(MONGODB_URI);
+var MONGODB_URI = process.env.mongoURI || "mongodb://localhost/scraper";
+mongoose
+  .connect(MONGODB_URI, { useNewUrlParser: true })
+  .then(() => console.log("MongoDB successfully connected"))
+  .catch(err => console.log(err));
 
 app.listen(PORT, function() {
   console.log("App running on port " + PORT + "!");
