@@ -7,8 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
-    "heroku-postbuild": "npm run build",
-    "if-env": "^1.0.4"
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -27,6 +26,7 @@
     "express": "^4.16.4",
     "express-handlebars": "^3.0.0",
     "mongoose": "^5.4.10",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "if-env": "^1.0.4"
   }
 }
