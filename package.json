@@ -5,9 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run start:dev",
-    "start:prod": "node server.js",
-    "heroku-postbuild": "npm run build"
+    "start": "node server.js",
+    "start:prod": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/Pearlybrah/scraping/issues"
   },
-  "homepage": "https://github.com/Pearlybrah/scraping#readme",
+  "homepage": "https://github.com/Pearlybrah/scraping/",
   "dependencies": {
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2",
